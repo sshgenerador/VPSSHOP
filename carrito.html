@@ -1,30 +1,30 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CarpiShop</title>
+<cabeza>
+    <meta juego de caracteres="UTF-8">
+    <meta http-equiv="Compatible con X-UA" content="IE=edge">
+    <meta name="viewport" content="ancho=ancho-del-dispositivo, escala-inicial=1.0">
+    <título>CarpiShop</título>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
+    <enlace rel="hoja de estilo" href="./css/main.css">
+</cabeza>
+<cuerpo>
 
-    <div class="wrapper">
-        <header class="header-mobile">
-            <h1 class="logo">CarpiShop</h1>
-            <button class="open-menu" id="open-menu">
+    <div class="envoltorio">
+        <header class="encabezado-móvil">
+            <h1 class="logo">Tienda Carpi</h1>
+            <button class="abrir-menu" id="abrir-menu">
                 <i class="bi bi-list"></i>
-            </button>
-        </header>
-        <aside>
-            <button class="close-menu" id="close-menu">
-                <i class="bi bi-x"></i>
-            </button>
-            <header>
-                <h1 class="logo">CarpiShop</h1>
-            </header>
+            </botón>
+        </encabezado>
+        <aparte>
+            <button class="cerrar-menu" id="cerrar-menu">
+                <i>clase="bi bi-x"></i>
+            </botón>
+            <encabezado>
+                <h1 class="logo">Tienda Carpi</h1>
+            </encabezado>
             <nav>
                 <ul>
                     <li>
@@ -33,26 +33,26 @@
                         </a>
                     </li>
                     <li>
-                        <a class="boton-menu boton-carrito active" href="./carrito.html">
+                        <a class="boton-menu boton-carrito activo" href="./carrito.html">
                             <i class="bi bi-cart-fill"></i> Carrito
                         </a>
                     </li>
                 </ul>
             </nav>
-            <footer>
+            <pie de página>
                 <p class="texto-footer">© 2022 Carpi Coder</p>
-            </footer>
+            </pie de página>
         </aside>
-        <main>
+        <principal>
             <h2 class="titulo-principal">Carrito</h2>
             <div class="contenedor-carrito">
-                <p id="carrito-vacio" class="carrito-vacio">Tu carrito está vacío. <i class="bi bi-emoji-frown"></i></p>
+                <p id="carrito-vacio" class="carrito-vacio">Tu carrito está vacío. <i class="bi bi-emoji-fruncir el ceño"></i></p>
 
-                <div id="carrito-productos" class="carrito-productos disabled">
+                <div id="carrito-productos" class="carrito-productos deshabilitado">
                     <!-- Esto se va a completar con el JS -->
                 </div>
 
-                <div id="carrito-acciones" class="carrito-acciones disabled">
+                <div id="carrito-acciones" class="carrito-acciones deshabilitado">
                     <div class="carrito-acciones-izquierda">
                         <button id="carrito-acciones-vaciar" class="carrito-acciones-vaciar">Vaciar carrito</button>
                     </div>
@@ -61,19 +61,19 @@
                             <p>Total:</p>
                             <p id="total">$3000</p>
                         </div>
-                        <button id="carrito-acciones-comprar" class="carrito-acciones-comprar">Comprar ahora</button>
+                        <botón id="carrito-acciones-comprar" class="carrito-acciones-comprar">Comprar ahora</botón>
                     </div>
                 </div>
 
-                <p id="carrito-comprado" class="carrito-comprado disabled">Muchas gracias por tu compra. <i class="bi bi-emoji-laughing"></i></p>
+                <p id="carrito-comprado" class="carrito-comprado disabled">Muchas gracias por tu compra. <i class="bi bi-emoji-riendo"></i></p>
 
             </div>
-        </main>
+        </principal>
     </div>
     
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="./js/carrito.js"></script>
     <script src="./js/menu.js"></script>
-</body>
-</html>
+</cuerpo>
+                    </html>
